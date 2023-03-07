@@ -1,0 +1,86 @@
+.products_section {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.products_section h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: -30px 0 45px 0;
+}
+
+.products_container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(300px, 1fr));
+  grid-gap: 1rem;
+}
+
+.search_panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 45px 0 34px 0;
+
+  width: 1050px;
+}
+
+.search_form span {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 30px;
+}
+
+.search_form input {
+  width: 103px;
+  height: 42px;
+  border: 1px solid #000;
+  border-radius: 7px;
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.discounted_items {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 20px;
+  padding: 7px;
+}
+
+.discounted_items_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 210px;
+  margin: 0 0 0 -100px;
+}
+
+.discounted_items_container p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.select_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+
+.select_container span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.select {
+  width: 219px;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 7px;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  outline-style: none;
+}

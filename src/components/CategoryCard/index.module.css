@@ -1,0 +1,18 @@
+.catalog_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 318px;
+  height: 350px;
+  object-fit: cover;
+  margin-left: 30px;
+}
+
+.card_title {
+  margin: 20px 0;
+  font-weight: 400;
+  font-size: 20px;
+}

@@ -1,0 +1,14 @@
+.categories_page {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0 0 80px 30px;
+}
+
+.categories_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}

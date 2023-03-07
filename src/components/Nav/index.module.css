@@ -1,0 +1,53 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 1440px;
+  height: 167px;
+   margin: auto; 
+}
+
+.logo_btn{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  }
+
+.menu{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.list_item{
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 5px;
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+}
+
+.list_item:hover{
+  color: #339933;
+  transition: .3s;
+}
+
+.list_item:last-child{
+  font-size: 50px;
+}
+
+.catalog button {
+  background-color: #339933;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  width: 129px;
+  height: 49px;
+  border: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+

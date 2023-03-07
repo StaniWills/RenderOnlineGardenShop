@@ -1,0 +1,86 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 370px;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.left_footer {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.contact {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 48px 0 0 32px;
+}
+
+.phone {
+  width: 649px;
+  height: 50px;
+  margin: 38px 0 0 32px;
+  font-size: 70px;
+  font-weight: 500;
+}
+
+.instagram {
+  font-size: 46px;
+  margin: 10px 0 5px 6px;
+  color: rgb(137, 42, 178);
+}
+
+.whatsapp {
+  font-size: 46px;
+  margin: 10px 0 5px 12px;
+  color: rgb(40, 156, 14);
+}
+
+.social {
+  float: left;
+  margin: 60px 0 0 40px;
+}
+.social_text {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.right_footer {
+  width: 50%;
+  height: 100%;
+  padding: 0 50px 0 0;
+  margin: 0 0 0 150px;
+}
+
+.right_footer .title {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 40px 0 0 0;
+}
+
+.sub_title {
+  width: 560px;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 10px 0 15px 0;
+  text-decoration-skip: 4px;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.work_hours {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 20px 0 5px 0;
+}
+
+.period {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 15px 0;
+}
+
