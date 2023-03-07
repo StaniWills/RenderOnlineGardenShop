@@ -8,7 +8,7 @@ export default function CategoryCard({ id, title, image }) {
       <Link to={`/categories/${id}`}>
         <img
           className={s.image}
-          src={`http://localhost:3333${image}`}
+          src={`https://gardenprojectonlineshop.onrender.com${image}`}
           alt={title}
         />
       </Link>
