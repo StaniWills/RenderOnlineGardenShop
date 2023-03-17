@@ -8,7 +8,7 @@ export default function CategoryCard({ id, title, image }) {
       <Link to={`/categories/${id}`}>
         <img
           className={s.image}
-          src={`https://renderonlinegardenshopback.onrender.com/${image}`}
+          src={`https://telran-project-backend.onrender.com/${image}`}
           alt={title}
         />
       </Link>
