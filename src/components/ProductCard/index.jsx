@@ -18,7 +18,7 @@ export default function ProductCard({id, image, price, title, discont_price,}) {
         <Link to={`/products/${id}`}>
           <img
             className={s.image}
-            src={`https://gardenshopback.onrender.com/${image}`}
+            src={`https://renderonlinegardenshopback.onrender.com/${image}`}
             alt="pic"
           />
         </Link>

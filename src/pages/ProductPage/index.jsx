@@ -39,7 +39,7 @@ export default function ProductPage() {   //straniza zelogo produkta
       <div className={s.product_container}>
         <img
           className={s.product_image}
-          src={`https://gardenshopback.onrender.com/${image}`}
+          src={`https://renderonlinegardenshopback.onrender.com/${image}`}
           alt="foto"
         />
         <div className={s.description_container}>
