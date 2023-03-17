@@ -14,7 +14,7 @@ export default function CartCard({
 
   return (
     <div className={s.cart_card}>
-      <img src={`https://renderonlinegardenshopback.onrender.com${image}`} alt="foto" />
+      <img src={`https://renderonlinebackgardenshop.onrender.com${image}`} alt="foto" />
         <div>
           <p className={s.title}>{title}</p>
             <div className={s.count_container}>
